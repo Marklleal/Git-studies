@@ -1,10 +1,22 @@
 // a guide of usage for git, by mkll.
 
-$ git init    // used to create a new Git repository;
+$ git init                  // used to create a new Git repository;
 
-$ git status    // used to display the current state of yout Git repository;
+$ git status                // used to display the current state of yout Git repository;
 
-$ git add       // add changes to the staging area on Git
-$ git add .     // will stage all changes to tracked files in the current directory and its subdirectories.
+$ git add                   // add changes to the staging area on Git;
+$ git add .                 // will stage all changes to tracked files in the current directory and its subdirectories;
 
-$ git commit -m ""  // used to create a new commit in your Git repository. A commit is a snapshot of the changes you have made to your files since the last commit, and it represents a point in your project's history.
+$ git commit -m ""          // used to create a new commit in your Git repository. A commit is a snapshot of the changes you have made to your files since the last commit, and it represents a point in your project's history;
+
+$ git reflog                // display a log of all the commits that are currently referenced by the Git repository references; 
+
+$ git reset --hard <id>     // command is used to reset the current branch and the staging area to a especific commit;
+
+$ git branch                // used in Git to manage and view branches in a Git repository;
+$ git branch <name>         // create a new branch called `<name>`;
+
+$ git checkout <name>       // used in Git to switch to a different branch or to a specific commit;
+$ git checkout -b <name>    // will creat a new branch called `<name>` and switch to it;
+
+$ git merge <name>          // This command merges changes from the specified branch into the current branch;
